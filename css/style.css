@@ -403,7 +403,7 @@ header.sticky{
 	font-size: 14px;
 	letter-spacing: 2px;
 }
-
+/* this is the css about the contacte  */
 .formcont .same{
 	padding: 10px;
 	margin: 15px;
@@ -447,9 +447,11 @@ header.sticky{
 	background-color: #ffffff;
 	border: 1px solid black;
 	opacity: 0.8;
-	text-align: center;padding: 10px;
-}
+	text-align: center;
+	padding: 10px;
 
+}
+/* média query for the responsiveness*/
 @media (max-width: 1400px){
 	header{
 		padding: 17px 3%;
@@ -532,8 +534,11 @@ header.sticky{
 		height: 85vh;
 		transition: .2s;
 	}
-	.formcont .same,.msg,.submit{
+	.formcont .same,.msg{
 		width: 200px;
 	}
+	.formcont .submit{
+		width: 200px;
+	} 
 }
 
